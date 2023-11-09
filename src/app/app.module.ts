@@ -17,13 +17,15 @@ import en from '@angular/common/locales/en';
 import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AlbumListComponent } from './album-list/album-list.component';
+import { PostListComponent } from './post-list/post-list.component';
 
 registerLocaleData(en);
 
 @NgModule({
   declarations: [
     AppComponent,
-    AlbumListComponent
+    AlbumListComponent,
+    PostListComponent
   ],
   imports: [
     BrowserModule,
